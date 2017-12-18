@@ -20,5 +20,8 @@
   "homepage": "https://github.com/mupraj10/knope-quotes#readme",
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "4.x.x"
   }
 }
