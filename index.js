@@ -20,8 +20,8 @@ app.get('/', (req, res, next) => {
 app.get('/quotes/:num?', (req, res, next) => {
     const quoteRequested = req.params.num;
 
-    quoteRequested > quotes.length
-    ? res.sendFile(path.join(__dirname, '.', '/index.html')) 
+    quoteRequested > quotes.length || typeof quoteRequested !== "number"
+    ? res.sendFile(path.join(__dirname, '.', '/index.html'))
     : res.send(sendQuote(quoteRequested || 1));
 
     next();
