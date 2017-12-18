@@ -36,9 +36,12 @@ e.g `/quotes/3`
 
 * Create a Tom Haverford Quotes API
 
+## Contributing 
+
+Fork it and get it started with `npm start`
 
 
-Please feel free at add in any quotes of Leslie Knope I have missed or contribute to making this better! Thanks!
+Please feel free at [add](/quote_repo.js) in any quotes of Leslie Knope I have missed  or contribute to making this better! Thanks!
 
 ### Inspired by
 
