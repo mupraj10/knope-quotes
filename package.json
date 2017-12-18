@@ -1,7 +1,7 @@
 {
-  "name": "knope-quotes",
+  "name": "leslie-knope-quotes",
   "version": "1.0.0",
-  "description": "",
+  "description": "An API for Quotes by Leslie Knope",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mupraj10/knope-quotes.git"
+    "url": "https://github.com/mupraj10/knope-quotes.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Maggy Prajapati",
+  "license": "None",
   "bugs": {
     "url": "https://github.com/mupraj10/knope-quotes/issues"
   },
