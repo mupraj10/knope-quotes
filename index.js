@@ -13,9 +13,6 @@ app.all('*', (req, res, next) => {
     next();
 });
 
-app.get('/', (req, res) => {
-    res.send('hit / route');
-})
 
 app.get('/quotes/:num?', (req, res) => {
     const quoteRequested = req.params.num;
