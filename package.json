@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mupraj10/knope-quotes.git"
+    "url": "https://github.com/mupraj10/leslie-knope-quotes.git"
   },
   "author": "Maggy Prajapati",
   "license": "None",
   "bugs": {
-    "url": "https://github.com/mupraj10/knope-quotes/issues"
+    "url": "https://github.com/mupraj10/leslie-knope-quotes/issues"
   },
-  "homepage": "https://github.com/mupraj10/knope-quotes#readme",
+  "homepage": "https://github.com/mupraj10/leslie-knope-quotes#readme",
   "dependencies": {
     "express": "^4.16.2"
   },
