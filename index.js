@@ -13,13 +13,18 @@ app.all('*', (req, res, next) => {
     next();
 });
 
+app.get('/', (req, res, next) => {
+    res.sendFile(path.join(__dirname + '/dance.gif'))
+})
 
-app.get('/quotes/:num?', (req, res) => {
+app.get('/quotes/:num?', (req, res, next) => {
     const quoteRequested = req.params.num;
 
     quoteRequested > quotes.length
     ? res.sendFile(path.join(__dirname + '/index.html')) 
     : res.send(sendQuote(quoteRequested || 1));
+
+    next();
 });
 
 app.use(function (err, req, res, next) {
