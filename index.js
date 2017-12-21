@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
 const port = process.env.PORT || 1337;
@@ -8,10 +9,12 @@ const port = process.env.PORT || 1337;
 const sendQuote = require('./sendQuote');
 const quotes = require('./quote_repo');
 
-app.all('*', (req, res, next) => {
-    res.set('Acess-Control-Allow-Origin', '*');
-    next();
-});
+// app.use('*', (req, res, next) => {
+//     res.set('Acess-Control-Allow-Origin', '*');
+//     next();
+// });
+
+app.use(cors());
 
 app.get('/', (req, res, next) => {
     res.sendFile(path.join(__dirname + '/dance.gif'))
