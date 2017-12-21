@@ -27,12 +27,8 @@ app.get('/quotes/:num?', (req, res, next) => {
     next();
 });
 
-app.use('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '.', '/index.html'))
-  });
 
-
-app.use(function (err, req, res, next) {
+app.use((err, req, res, next) => {
     console.error(err, err.stack);
     res.status(500).send(err);
 });
