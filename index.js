@@ -9,10 +9,7 @@ const port = process.env.PORT || 1337;
 const sendQuote = require('./sendQuote');
 const quotes = require('./quote_repo');
 
-// app.use('*', (req, res, next) => {
-//     res.set('Acess-Control-Allow-Origin', '*');
-//     next();
-// });
+
 
 app.use(cors());
 
