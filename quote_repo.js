@@ -47,6 +47,7 @@ const quotes = [
   "No matter what I do, literally nothing bad can happen to me. I'm like a white male US senator.",
   'I would like to be president some day, so, no, I have not smoked marijuana.',
   'Every great work of art contains a message. And the message of this painting is get out of my way unless you want an arrow in your ass, Marcia.'
+  'We have to remember what's important in life: friends, waffles, and work. Or waffles, friends, work. But work has to come third.'
 ];
 
 module.exports = quotes;
