@@ -4,12 +4,11 @@ Simple API that serves up random quotes from Leslie Knope.
 
 Opening up this project for Hacktoberfest 2019!!!
 
-https://leslie-knope-quotes.herokuapp.com/quotes
-
 ![waffle leslie](./waffles.gif)
 
 
 ## API 
+https://leslie-knope-quotes.herokuapp.com/quotes
 
 The `Access-Control-Allow-Origin` header is set to `*` so that you can make requests from any domain.
 
@@ -36,7 +35,9 @@ e.g `/quotes/3`
 ```
 ## Future 
 
-* Create a Tom Haverford Quotes API
+* Add more endpoints to the API 
+* Add testing 
+
 
 ## Contributing 
 
