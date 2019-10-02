@@ -2,6 +2,8 @@
 
 Simple API that serves up random quotes from Leslie Knope.
 
+Opening up this project for Hacktoberfest 2019!
+
 https://leslie-knope-quotes.herokuapp.com/quotes
 
 ![waffle leslie](./waffles.gif)
@@ -38,7 +40,7 @@ e.g `/quotes/3`
 
 ## Contributing 
 
-Fork it and get it started with `npm start`
+Fork it and get it started with `npm start` 
 
 
 Please feel free at [add](/quote_repo.js) in any quotes of Leslie Knope I have missed  or contribute to making this better! Thanks!
