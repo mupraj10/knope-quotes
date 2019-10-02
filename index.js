@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 1337;
 
 const sendQuote = require('./sendQuote');
-const quotes = require('./quote_repo');
+const quotes = require('./quote_repo').default;
 
 app.use(cors());
 

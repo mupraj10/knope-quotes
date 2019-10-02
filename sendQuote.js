@@ -1,4 +1,4 @@
-const quotes = require("./quote_repo");
+const quotes = require("./quote_repo").default;
 
 function sendQuote(num) {
   const quotesSent = [];
