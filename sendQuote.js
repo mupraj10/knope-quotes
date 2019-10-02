@@ -1,13 +1,11 @@
 const quotes = require("./quote_repo");
 
-
 function sendQuote(num) {
   const quotesSent = [];
   let quote;
-  let allQuotes = quotes;
 
   for (let i = 0; i < num; i++) {
-    quote = allQuotes.splice(Math.floor(Math.random() * allQuotes.length),1);
+    quote = quotes[Math.floor(Math.random() * quotes.length)];
     quotesSent.push(quote);
   }
 
