@@ -7,17 +7,17 @@ const app = express();
 const port = process.env.PORT || 1337;
 
 const sendQuote = require('./sendQuote');
-const quotes = require('./quote_repo').default;
+const quotes = require('./quote_repo');
 
 app.use(cors());
-
+console.log('quotes', quotes.length)
 app.get('/', (req, res, next) => {
   res.sendFile(path.join(__dirname + '/dance.gif'));
 });
 
 app.get('/quotes/:num?', (req, res, next) => {
   const quoteRequested = req.params.num;
-
+ 
   quoteRequested > quotes.length
     ? res.sendFile(path.join(__dirname, '.', '/index.html'))
     : res.send(sendQuote(quoteRequested || 1));

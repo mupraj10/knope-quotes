@@ -1,4 +1,4 @@
-module.exports = [
+const quotes = [
   'You shut your mouth, you have all the strengths.',
   'You know my code: hoes before bros. Uteruses before duderuses…Ovaries before brovaries.',
   "I'm going to be direct and honest with you. I would like a glass of red wine and I'll take the cheapest one you have because I can't tell the difference.",
@@ -48,3 +48,5 @@ module.exports = [
   'I would like to be president some day, so, no, I have not smoked marijuana.',
   'Every great work of art contains a message. And the message of this painting is get out of my way unless you want an arrow in your ass, Marcia.'
 ];
+
+module.exports = quotes;
