@@ -46,7 +46,11 @@ const quotes = [
   'There’s nothing we can’t do if we work hard, never sleep, and shirk all other responsibilities in our lives.',
   "No matter what I do, literally nothing bad can happen to me. I'm like a white male US senator.",
   'I would like to be president some day, so, no, I have not smoked marijuana.',
-  'Every great work of art contains a message. And the message of this painting is get out of my way unless you want an arrow in your ass, Marcia.'
+  'Every great work of art contains a message. And the message of this painting is get out of my way unless you want an arrow in your ass, Marcia.',
+  'Do it. Fierce. Power.',
+  'You’re a beautiful, talented, brilliant, powerful musk ox.',
+  'Maybe it’s time for more women to be in charge.',
+  'I always carry emergency s’more rations in my car.',
 ];
 
 module.exports = quotes;
