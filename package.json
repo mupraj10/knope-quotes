@@ -4,7 +4,7 @@
   "description": "An API for Quotes by Leslie Knope",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --exit",
     "start": "node index.js",
     "deploy": "scripts/deploy"
   },
@@ -25,5 +25,10 @@
   "engines": {
     "node": "9.2.1",
     "npm": "5.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "supertest": "^4.0.2"
   }
 }
