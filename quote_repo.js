@@ -46,7 +46,12 @@ const quotes = [
   'There’s nothing we can’t do if we work hard, never sleep, and shirk all other responsibilities in our lives.',
   "No matter what I do, literally nothing bad can happen to me. I'm like a white male US senator.",
   'I would like to be president some day, so, no, I have not smoked marijuana.',
-  'Every great work of art contains a message. And the message of this painting is get out of my way unless you want an arrow in your ass, Marcia.'
+  'Every great work of art contains a message. And the message of this painting is get out of my way unless you want an arrow in your ass, Marcia.',
+  "that's a very good question sir, and i would counter with my very own question which is: why is half of your face all swirly?",
+  "last night i opened up this gift basket for my own pleasure",
+  "when you spill something and you try to wipe it up with something that's dirty then you get double dirty",
+  "I asked Ron to blow the whistle on me and he refused, and that's why i had to whistle blow myself",
+  "how's this for a headline? 'still swingin, parks gang reunites for one last bang'"
 ];
 
 module.exports = quotes;
