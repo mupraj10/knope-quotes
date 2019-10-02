@@ -6,7 +6,7 @@ function sendQuote(num) {
   let allQuotes = quotes;
 
   for (let i = 0; i < num; i++) {
-    quote = allquotes.splice(Math.floor(Math.random() * quotes.length),1);
+    quote = allquotes.splice(Math.floor(Math.random() * allQuotes.length),1);
     quotesSent.push(quote);
   }
 
