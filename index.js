@@ -15,12 +15,13 @@ app.get('/', (req, res, next) => {
   res.sendFile(path.join(__dirname + '/dance.gif'));
 });
 
-app.get('/quotes/:num?', (req, res, next) => {
+app.get('/quotes/:num?/:keyword?', (req, res, next) => {
   const quoteRequested = req.params.num;
- 
+  const keywordRequested = req.params.keyword; 
+
   quoteRequested > quotes.length
     ? res.sendFile(path.join(__dirname, '.', '/index.html'))
-    : res.send(sendQuote(quoteRequested || 1));
+    : res.send(sendQuote(quoteRequested || 1, keywordRequested || ''));
 
   next();
 });
