@@ -4,7 +4,7 @@ function sendQuote(num, keyword) {
   const quotesSent = [];
   let quote;
 
-  const searchRegex = new RegExp(`\\s${keyword}\\s`, 'gi')
+  const searchRegex = new RegExp(`\\b${keyword}\\b`, 'gi')
   const searchedQuotes = quotes.filter(quote => quote.match(searchRegex));
 
   for (let i = 0; i < num; i++) {
