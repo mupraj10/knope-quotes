@@ -1,11 +1,14 @@
 const quotes = require("./quote_repo");
 
-function sendQuote(num) {
+function sendQuote(num, keyword) {
   const quotesSent = [];
   let quote;
 
+  const searchRegex = new RegExp(`\\b${keyword}\\b`, 'gi')
+  const searchedQuotes = quotes.filter(quote => quote.match(searchRegex));
+
   for (let i = 0; i < num; i++) {
-    quote = quotes[Math.floor(Math.random() * quotes.length)];
+    quote = searchedQuotes[Math.floor(Math.random() * searchedQuotes.length)];
     quotesSent.push(quote);
   }
 

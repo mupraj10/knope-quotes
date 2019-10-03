@@ -33,6 +33,29 @@ e.g `/quotes/3`
   "I am super chill all the time."
 ];
 ```
+
+### `GET /quotes/<count>/<keyword>`
+
+returns an array with `count` quotes matching `keyword`
+
+e.g. `/quotes/3/cat`
+
+```javascript
+[
+  "My cat is my best friend.",
+  "A dog is better than a cat.",
+  "The cat is so lazy."
+];
+```
+
+The search matches the full keyword exactly (case-insensitive), so the following quotes would not be returned in the above example.
+```javascript
+[
+  "Cats can be real a-holes.",
+  "I love cats."
+];
+```
+
 ## Future 
 
 * Add more endpoints to the API 
