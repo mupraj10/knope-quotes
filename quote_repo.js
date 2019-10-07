@@ -12,6 +12,7 @@ const quotes = [
   'Ann, you beautiful spinster, I will find you love.',
   'Ann, you beautiful tropical fish.',
   'Ann, you poetic and noble land-mermaid.',
+  'All I need to do is focus and stay calm.',
   "I'm gonna get drunk and then I'm gonna order a three course meal where each course is made of dessert.",
   'If you look inside your bags you will find a few things. A bouquet of hand crocheted flower pens, a mosaic portrait of each of you made from the crushed bottles of your favorite diet soda and a personalized 5,000-word essay of why you are all so awesome.',
   "The library is the worst group of people ever assembled in history. They're mean, conniving, rude, and extremely well-read, which makes them dangerous.",
